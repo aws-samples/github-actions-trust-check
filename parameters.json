@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "github-actions-trust-checker",
+    "Description": "github-actions-trust-checker",
+    "SourceRuntime": "python3.11-lib",
+    "CodeKey": "github-actions-trust-checker.zip",
+    "InputParameters": "{\"TrustClaimSubject\": \"repo:a-user-or-org-name/a-repo-name\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::IAM::Role"
+  },
+  "Tags": "[]"
+}

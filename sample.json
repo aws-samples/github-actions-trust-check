@@ -1,0 +1,30 @@
+{
+    "version": "1.3",
+    "accountId": "12345678910",
+    "configurationItemCaptureTime": "2022-02-28T08:10:37.372Z",
+    "configurationItemStatus": "OK",
+    "configurationStateId": "1646035837372",
+    "configurationItemMD5Hash": "",
+    "arn": "arn:aws:iam::12345678910:role/github-actions-role",
+    "resourceType": "AWS::IAM::Role",
+    "resourceId": "some-resource-id",
+    "resourceName": "github-actions-role",
+    "awsRegion": "global",
+    "availabilityZone": "Not Applicable",
+    "resourceCreationTime": "2022-02-28T07:51:30.000Z",
+    "tags": {},
+    "relatedEvents": [],
+    "configuration": {
+      "path": "/",
+      "roleName": "github-actions-role",
+      "roleId": "a-role-id",
+      "arn": "arn:aws:iam::12345678910:role/github-actions-role",
+      "createDate": "2022-02-28T07:51:30.000Z",
+      "assumeRolePolicyDocument": "{\"Version\":\"2012-10-17\",\"Statement\":{\"Effect\":\"Allow\",\"Principal\":{\"Federated\":\"arn:aws:iam::12345678910:oidc-provider/token.actions.githubusercontent.com\"},\"Action\":\"sts:AssumeRoleWithWebIdentity\",\"Condition\":{\"StringEquals\":{\"token.actions.githubusercontent.com:aud\":\"sts.amazonaws.com\"},\"StringLike\":{\"token.actions.githubusercontent.com:sub\":\"repo:a-user-or-org-name/a-repo-name:*\"}}}}",
+      "instanceProfileList": [],
+      "rolePolicyList": [],
+      "tags": []
+    },
+    "supplementaryConfiguration": {},
+    "resourceTransitionStatus": "None"
+  }
